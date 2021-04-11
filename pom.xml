@@ -21,6 +21,10 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
+        <jaxb.version>3.0.0</jaxb.version>
+        <awaitility.version>4.0.3</awaitility.version>
+        <jaxb.api.version>2.4.0-b180830.0359</jaxb.api.version>
     </properties>
     <packaging>pom</packaging>
 
@@ -41,5 +45,38 @@
             <organization>My own brewery</organization>
         </developer>
     </developers>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-core</artifactId>
+                <version>${jaxb.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl -->
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-impl</artifactId>
+                <version>${jaxb.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+            <dependency>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
+                <version>${jaxb.api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct</artifactId>
+                <version>${org.mapstruct.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.awaitility</groupId>
+                <artifactId>awaitility</artifactId>
+                <version>${awaitility.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
