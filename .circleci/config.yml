@@ -31,19 +31,6 @@ jobs:
                       - v1-dependencies-
 
             - run: mvn dependency:go-offline
-            - run:
-                name: Creating Dummy Artifacts
-                command: |
-                    mvn clean install;
-                    cd target;
-                    mkdir /tmp/artifacts;
-                    echo "my artifact files in a dir" > /tmp/artifacts/artifact-2;
-            - store_artifacts:
-                path: /tmp/artifact-1
-                destination: artifact-file
-            - store_artifacts:
-                path: /tmp/artifacts
-
             - save_cache:
                   paths:
                       - ~/.m2
