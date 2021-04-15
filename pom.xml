@@ -15,7 +15,10 @@
     <artifactId>brewer-bom</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
+    <scm>
+        <connection>scm:git:https://github.com/hmnshgpt455/brewery-bom</connection>
+        <developerConnection>scm:git:https://github.com/hmnshgpt455/brewery-bom</developerConnection>
+    </scm>
     <properties>
         <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
