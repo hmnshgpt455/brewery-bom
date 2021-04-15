@@ -11,7 +11,7 @@
 
     <groupId>io.github.hmnshgpt455</groupId>
     <artifactId>brewery-bom</artifactId>
-    <version>1.1</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <distributionManagement>
