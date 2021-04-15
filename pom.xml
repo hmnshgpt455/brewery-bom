@@ -19,7 +19,7 @@
             <uniqueVersion>false</uniqueVersion>
             <id>sonatype</id>
             <name>Sonatype nexus repository</name>
-            <url>https://s01.oss.sonatype.org/</url>
+            <url>https://s01.oss.sonatype.org/#stagingRepositories</url>
             <layout>default</layout>
         </repository>
     </distributionManagement>
