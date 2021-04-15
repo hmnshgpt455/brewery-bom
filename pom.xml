@@ -11,12 +11,12 @@
 
     <groupId>org.refereshing.brewery</groupId>
     <artifactId>brewer-bom</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <scm>
         <connection>scm:git:https://github.com/hmnshgpt455/brewery-bom</connection>
         <developerConnection>scm:git:https://github.com/hmnshgpt455/brewery-bom</developerConnection>
-      <tag>brewer-bom-1.0</tag>
+      <tag>HEAD</tag>
   </scm>
     <properties>
         <java.version>11</java.version>
