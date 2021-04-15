@@ -11,7 +11,7 @@
 
     <groupId>io.github.hmnshgpt455</groupId>
     <artifactId>brewery-bom</artifactId>
-    <version>1.5</version>
+    <version>1.6-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <distributionManagement>
@@ -28,7 +28,7 @@
     <scm>
         <connection>scm:git:https://github.com/hmnshgpt455/brewery-bom</connection>
         <developerConnection>scm:git:https://github.com/hmnshgpt455/brewery-bom</developerConnection>
-        <tag>brewery-bom-1.5</tag>
+        <tag>brewery-bom-1.0</tag>
     </scm>
 
     <properties>
